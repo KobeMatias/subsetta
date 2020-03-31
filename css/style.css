@@ -1,7 +1,19 @@
+/* "bootstrap dark bg #343a40" */
+
+body {
+    /* background-color: #EDF2F4; */
+    /* background-color: #F1F7EE; */
+    background-color: #E2E2E2;
+}
+
 .navbar-brand .nav-link {
     font-family: 'Aldrich', sans-serif;
 }
 
 .jumbotron {
-    font-family: 'Aldrich', sans-serif!important;
+    font-family: 'Aldrich', sans-serif !important;
+}
+
+.card-title {
+    font-family: 'Aldrich', sans-serif !important;
 }
