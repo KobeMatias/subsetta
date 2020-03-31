@@ -13,6 +13,14 @@ body {
     to {background-color: #C3C3C3;}
 }
 
+.delay-1-1qtr {
+    animation-delay: 1.25s;
+}
+
+.delay-1-3qtr {
+    animation-delay: 1.75s;
+}
+
 .navbar-brand .nav-link {
     font-family: 'Aldrich', sans-serif;
 }
