@@ -10,6 +10,7 @@ body {
     background: linear-gradient(145deg, rgba(0,166,251,1) 0%, rgba(0,53,84,1) 100%)!important;
 }
 
+/* Animation CSS */
 @keyframes bganim {
     from {background-color: #2980b9;}
     to {background-color: #051923;}
@@ -50,4 +51,19 @@ body {
 
 .card-title {
     font-family: 'Aldrich', sans-serif !important;
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
 }
