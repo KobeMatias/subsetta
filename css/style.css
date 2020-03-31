@@ -4,13 +4,22 @@ body {
     /* background-color: #EDF2F4; */
     /* background-color: #F1F7EE; */
     /* background-color: #E2E2E2; */
-    background-color: #C3C3C3;
+    /* background-color: #C3C3C3; */
+    background-color: #2980b9;
     animation: bganim 2s;
 }
 
+.bg-dark {
+    background-color: #003554!important;
+}
+
+.card {
+    border: 1px solid #003554;
+}
+
 @keyframes bganim {
-    from {background-color: #343a40;}
-    to {background-color: #C3C3C3;}
+    from {background-color: #003554;}
+    to {background-color: #2980b9;}
 }
 
 .delay-1-1qtr {
@@ -21,8 +30,12 @@ body {
     animation-delay: 1.75s;
 }
 
-.navbar-brand .nav-link {
-    font-family: 'Aldrich', sans-serif;
+.navbar-brand {
+    font-family: 'Aldrich', sans-serif !important;
+}
+
+.nav-link {
+    font-family: 'Aldrich', sans-serif !important;
 }
 
 .jumbotron {
