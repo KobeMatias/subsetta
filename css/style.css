@@ -1,10 +1,6 @@
 /* "bootstrap dark bg #343a40" */
 
 body {
-    /* background-color: #EDF2F4; */
-    /* background-color: #F1F7EE; */
-    /* background-color: #E2E2E2; */
-    /* background-color: #C3C3C3; */
     /* background-color: #2980b9; */
     background-color: #051923;
     animation: bganim 2s;
@@ -14,14 +10,17 @@ body {
     background: linear-gradient(145deg, rgba(0,166,251,1) 0%, rgba(0,53,84,1) 100%)!important;
 }
 
-.card {
-    border: 1px solid #003554;
-    background-color: #003554;
-}
-
 @keyframes bganim {
     from {background-color: #2980b9;}
     to {background-color: #051923;}
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1); 
 }
 
 .delay-1-1qtr {
@@ -30,6 +29,11 @@ body {
 
 .delay-1-3qtr {
     animation-delay: 1.75s;
+}
+
+.card {
+    border: 1px solid #003554;
+    background-color: #003554;
 }
 
 .navbar-brand {
