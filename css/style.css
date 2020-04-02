@@ -1,13 +1,17 @@
 /* "bootstrap dark bg #343a40" */
 
 body {
-    /* background-color: #2980b9; */
-    background-color: #051923;
-    animation: bganim 2s;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.bg-dark {
-    background: linear-gradient(145deg, rgba(0,166,251,1) 0%, rgba(0,53,84,1) 100%)!important;
+.opacity {
+    opacity: 0.5;
+}
+
+h1 {
+ opacity: 1.0 !important;
 }
 
 /* Animation CSS */
@@ -33,24 +37,24 @@ body {
 }
 
 .card {
-    border: 1px solid #003554;
-    background-color: #003554;
+    /* border: 1px solid #003554;
+    background-color: #003554; */
 }
 
 .navbar-brand {
-    font-family: 'Aldrich', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .nav-link {
-    font-family: 'Aldrich', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .jumbotron {
-    font-family: 'Aldrich', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .card-title {
-    font-family: 'Aldrich', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Sticky Footer Classes */
