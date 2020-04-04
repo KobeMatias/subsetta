@@ -19,6 +19,9 @@ h1 {
     from {background-color: #2980b9;}
     to {background-color: #051923;}
 }
+.active {
+    text-transform: uppercase;
+}
 
 .zoom {
     transition: transform .2s;
@@ -76,3 +79,11 @@ body {
 #sticky-footer {
   flex-shrink: 0;
 }
+
+.mr-auto {
+    margin-right: 0 !important;
+}
+.navbar-toggleable-md .navbar-collapse {         
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;  
+} 
