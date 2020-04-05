@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Navbar CSS */
@@ -43,22 +44,6 @@ body {
 .card {
     /* border: 1px solid #003554;
     background-color: #003554; */
-}
-
-.navbar-brand {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-.nav-link {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-.jumbotron {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-.card-title {
-    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Sticky Footer Classes */
