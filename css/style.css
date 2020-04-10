@@ -16,6 +16,11 @@ body {
     justify-content: flex-end;  
 } 
 
+/* Jumbotron CSS */
+.jumbotron {
+    background-color: #fff;
+}
+
 /* Animation CSS */
 @keyframes bganim {
     from {background-color: #2980b9;}
